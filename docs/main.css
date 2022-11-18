@@ -59,6 +59,16 @@
     
 }
 
+.box{
+	width: 500px;
+	margin: auto;
+	border: 3px solid #4287f5;
+}
+
+.box div{
+	
+}
+
 ul{
     padding-left: 0;
     list-style-position: inside;
