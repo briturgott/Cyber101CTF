@@ -59,6 +59,15 @@
     
 }
 
+.box{
+	width: 300px;
+	margin: auto;
+	border: 3px solid #4287f5;
+}
+
+.box div{
+	
+}
 
 ul{
     padding-left: 0;
@@ -112,9 +121,3 @@ h1 {
 
 }
 
-
-.box div {
-	width: 300px;
-	margin: auto;
-	border: 3px solid #4287f5;
-}
