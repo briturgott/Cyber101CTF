@@ -1,8 +1,8 @@
-.topnav {
-      background-color: rgb(238,238,238);
-      overflow: hidden;
+.nav {
+    background-color: rgb(238,238,238);
+    overflow: hidden;
     margin: -10px;
-    }
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -16,10 +16,12 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav :hover {
+    background-color: #ddd;
+    transition: 0.2s;
+    color: black;
 }
+
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -34,19 +36,78 @@
   width: 50%;
 }
 
-
-.roundedbutton{
+.wrapper {
+    display: grid;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff4e6;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 200px;
     background-color: rgb(238,238,238);
-    border: none;
+    padding: 10px 10px 10px; 
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.wrapper div {
+
+}
+
+.wrapper {
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+.button{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 30px;
+    border-color: black;
+    margin: 4px 2px;
+    border: 1px solid black;
+
+}
+
+.button:hover {
+      background-color:#ddd;
+      transition: 0.7s;
+  }
+/*
+.roundedbutton :hover{
+    background-color: #ddd;
     color: black;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 12px;
+    width: 150px;
+    border-radius: 30px;
     border-color: black;
     margin: 4px 2px;
-    border: 2px solid black;
+    border: 1px solid black;
+
+}*/
+
+body {
+    background-color: rgb(165, 238, 239);
+}
+
+
+h1 {
+    font-size: 35px;
+    /*color: rgb(80, 80, 255);*/
+    color: #C28E00;
+    text-align: center;
 
 }
