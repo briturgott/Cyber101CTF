@@ -5,12 +5,12 @@ visit https://briturgott.github.io/Cyber101CTF/
 
 
 To Do List:
-- [x] ~~Upper Banner (Logo, About, Rules, CWIT Logo on right)
+- [x] ~~Upper Banner (Logo, About, Rules, CWIT Logo on right)~~
 - [ ] Body: Box for Cyber 101 Logo (Blue Page)
-- [x] ~~Enter button
+- [x] ~~Enter button~~
 - [ ] Add CWIT logo to upper banner top right
-- [x] ~~create boxes for challenges on challenges page
-- [x] ~~Add soup challenge (Paisley is working on that one)
+- [x] ~~create boxes for challenges on challenges page~~
+- [x] ~~Add soup challenge (Paisley is working on that one)~~
 - [ ] Complete challenges page and collect it to the actual pages for the challenges
 - [ ] stretch goal? improve formatting
 
