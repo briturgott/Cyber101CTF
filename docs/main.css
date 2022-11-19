@@ -81,15 +81,15 @@ ul{
     font-size: 16px;
     width: 150px;
     border-radius: 30px;
-    border-color: black;
+    border-color: white;
     margin: 4px 2px;
     border: 1px solid black;
 
 }
 
 .button:hover {
-      background-color:#ddd;
-      transition: 0.7s;
+        background-color: #54b3d6;
+        transition: 0.7s;
   }
 /*
 .roundedbutton :hover{
